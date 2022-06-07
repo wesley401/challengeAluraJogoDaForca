@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jogo.css">
+    <title>JogoDaForca</title>
+</head>
+<body>
+    <header>
+        <img id="logoAlura" src="img/Vector.svg" alt="logo-alura">
+    </header>
+    <main class="inicio">
+        <div id="forca">
+            <img src="img/forca/Rectangle 15.svg" >
+            <img src="img/forca/Rectangle 16.svg" >
+            <img src="img/forca/Rectangle 17.svg" >
+            <img src="img/forca/Rectangle 14.svg" >
+        </div>
+        <div id="boneco">
+            <img src="img/boneco/Ellipse 9 (Stroke).svg" id="cabeca" class="parte-corpo">
+            <img src="img/boneco/Rectangle 18.svg" id="corpo" class="parte-corpo">
+            <img src="img/boneco/Rectangle 19.svg" id="br-direito" class="parte-corpo">
+            <img src="img/boneco/Rectangle 20.svg" id="br-esquerdo" class="parte-corpo">
+            <img src="img/boneco/Rectangle 22.svg" id="pr-direita" class="parte-corpo">
+            <img src="img/boneco/Rectangle 21.svg" id="pr-esquerda" class="parte-corpo">
+        </div>
+        <div id="#palavra">
+            <div class="palavra-secreta"></div>
+            <div class="letras-erradas"></div>
+            <div class="popup">
+            </div>
+        </div>
+            <div id="botaoIniciar">
+            <input type="submit" onclick='irInicio()' class="telaInicial" value="Inicio" id="inicioo">
+        </div>
+    </main>
+</body>
+<footer>
+    <p class="copyright"> © Copyright wesley401 - 2022   </p>
+    <a href="http://github.com/wesley401"> .GITHUB</a>  
+</footer>
+<script src="js/script.js"></script>
+</html>

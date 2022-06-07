@@ -1,0 +1,79 @@
+#cabeca {   
+    position: relative;
+    bottom: 19.5rem; 
+    left: 3.6rem;
+}
+#corpo {
+    position: relative; 
+    left:5.5rem;
+    bottom: 19.8rem;
+}
+#br-direito {
+    position: relative; 
+    left: 3.4rem;
+    bottom: 27rem;
+}
+#br-esquerdo{
+
+    position: relative; 
+    left: 5.6rem;
+    bottom: 31rem;
+}
+#pr-direita{
+    position: relative; 
+    left: 3.4rem;
+    bottom: 28rem;
+}
+#pr-esquerda{ 
+    position: relative;  
+    left: 5.6rem;
+    bottom: 32rem;
+}
+#forca {
+    display: flex;
+    align-items:flex-start;
+    position:relative;
+    order: initial;
+    align-content: center;
+    left: 7rem;
+
+}   
+#forca :last-child {
+    position: relative;
+    top: 22.5rem;
+    right: 14rem;
+
+}
+#palavra {
+    display: block;
+    position: absolute;
+    top: 15rem;
+}
+.palavra-secreta {
+    position: absolute;
+    bottom: 40%;
+    font-family:'Inter'; 
+    font-size: 70px;
+    color: #ecfa23;
+    justify-content: center;
+    align-items: center;
+}
+.letras-erradas {
+    position: absolute;
+    left: 70%;
+    bottom: 80%;
+    font-family:'Inter'; 
+    font-size: 30px;
+    color: #949e00;
+    justify-content: center;
+    align-items: center;
+}
+#botaoIniciar {
+    display: block;
+    position: absolute;
+    top: 60%;
+    margin:10rem auto 5rem auto;
+}
+.parte-corpo {
+    display:none;
+}
